@@ -1,0 +1,27 @@
+/* 
+This program reads a text file containing commands to perform the specified operations. It supports the following operations:
+
+add: Adds the values stored in two source registers and stores the result in a destination register.
+
+sub: Subtracts the value in the second source register from the value in the first source register and stores the result in a destination register.
+
+addi: Adds a constant value to the value stored in a source register and stores the result in a destination register.
+
+subi: Subtracts a constant value from the value stored in a source register and stores the result in a destination register.
+
+store: stores a value in a destination register.
+
+Instructions:
+-> Create a text file named "temp.txt" and populate it with the desired commands. Each command should be on a separate line.
+-> Compile and run the program.
+-> The program will read the "temp.txt" file and execute the commands.
+-> After executing all the commands, the program will display the values stored in each register.
+
+For Example,
+add 1, 2 3
+addi 4, 5 10
+sub 3, 1 2
+store 5, 15
+
+
+It's essential to ensure that the file "temp.txt" exists in the same directory as the program file and contains valid commands.

@@ -1,0 +1,6 @@
+store x1,10
+store x2,20
+add x3,x2,x1
+addi x4,x3,145
+sub x5,x2,x1
+subi x6,x4,10
